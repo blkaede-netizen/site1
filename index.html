@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=26">
+  <link rel="stylesheet" href="styles.css?v=27">
   <script src="script.js?v=16" defer></script>
 </head>
 <body>
@@ -207,12 +207,10 @@
         <div class="form-card" id="registration-form" aria-labelledby="form-title">
           <h3 id="form-title">Регистрация на эфир</h3>
           <div class="form-placeholder" aria-hidden="true"><span>Имя</span><span>Телефон или e-mail</span><span class="form-placeholder__button">Зарегистрироваться бесплатно</span></div>
-          <nav class="form-card__legal" aria-label="Юридические документы">
-            <a class="js-license-link" href="#" aria-disabled="true">Лицензия на образовательную деятельность № Л035-01271-78/00675511</a>
-            <a class="js-policy-link" href="#" aria-disabled="true">Политика обработки персональных данных</a>
-            <a class="js-consent-link" href="#" aria-disabled="true">Согласие на обработку персональных данных</a>
-            <a class="js-ads-consent-link" href="#" aria-disabled="true">Согласие на обработку персональных данных в рекламных целях</a>
-          </nav>
+          <div class="form-card__consent">
+            <label><input type="checkbox" disabled>Я соглашаюсь с <a href="https://drive.google.com/file/d/1Ds4_LYxGyn-UV2bTBPC8diNzIxJ0oowQ/view?usp=sharing" target="_blank" rel="noopener">условиями оферты</a></label>
+            <label><input type="checkbox" disabled>Я даю согласие на обработку персональных данных и на получение рекламной рассылки в соответствии с <a href="https://afanasevacourse.info/cms/system/legal" target="_blank" rel="noopener">условиями</a></label>
+          </div>
         </div>
       </div>
     </section>
