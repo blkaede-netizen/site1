@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=27">
+  <link rel="stylesheet" href="styles.css?v=28">
   <script src="script.js?v=16" defer></script>
 </head>
 <body>
@@ -27,7 +27,7 @@
         <div class="price" aria-label="Стоимость: 0 рублей">
           <strong>0 ₽</strong>
         </div>
-        <div class="event-time"><span class="js-event-date">Ближайшая дата</span><br>в 13:00 по МСК</div>
+        <div class="event-time">{DATETIME} Мск</div>
         <a class="button button--light" id="cta-hero" href="#registration">Зарегистрироваться бесплатно</a>
       </div>
       <p class="hero__note">Для регистрации заполните короткую форму по кнопке и выберите, куда прислать ссылку на эфир: в Telegram или в MAX.</p>
@@ -65,7 +65,7 @@
           <p>Один бариста тратит на гостя 3–4 минуты, значит принимает <strong>около 20 заказов в час</strong>. При среднем чеке 450 ₽ это 9 000 ₽ в час, и цифра не изменится, даже если мимо идёт тысяча человек.</p>
           <p>Аренда на проходном месте всегда дороже, и выходит, что каждый месяц Вы переплачиваете за людей, которых всё равно не успеете обслужить.</p>
           <p class="on-air">На эфире считаем локацию под Ваш формат: сколько людей Вам действительно нужно, каких именно и что смотреть в помещении до того, как подписан договор.</p>
-          <div class="inline-cta"><a class="button" id="cta-after-2" href="#registration">Зарегистрироваться бесплатно</a><p><span class="js-event-date">Ближайшая дата</span> в 13:00 по МСК<br>Участие бесплатное</p></div>
+          <div class="inline-cta"><a class="button" id="cta-after-2" href="#registration">Зарегистрироваться бесплатно</a><p>{DATETIME} Мск<br>Участие бесплатное</p></div>
         </div>
       </section>
 
@@ -115,7 +115,7 @@
             <span><strong>от 100 000 ₽</strong>вся статья на старте</span>
           </div>
           <p class="on-air">На эфире Александра показывает формулу меню, которое приносит прибыль, и объясняет, из чего складывается эта статья и где в ней можно сэкономить, не нарушая требований Роспотребнадзора.</p>
-          <div class="inline-cta"><a class="button button--light" id="cta-after-4" href="#registration">Зарегистрироваться бесплатно</a><p><span class="js-event-date">Ближайшая дата</span> в 13:00 по МСК<br>Участие бесплатное</p></div>
+          <div class="inline-cta"><a class="button button--light" id="cta-after-4" href="#registration">Зарегистрироваться бесплатно</a><p>{DATETIME} Мск<br>Участие бесплатное</p></div>
         </div>
       </section>
 
@@ -138,7 +138,7 @@
           <aside class="margin-note" aria-label="Нормальный фудкост заведения"><strong>до 30%</strong><span>нормальный фудкост заведения</span></aside>
           <p>Проверяется это одним показателем: фудкост, то есть доля стоимости продуктов в цене блюда, в норме держится до 30%. Если он выше, заведение работает и гости довольны, а денег в кассе не остаётся.</p>
           <p class="on-air">На эфире считаем и сумму на открытие, и точку безубыточности: с какого оборота заведение начинает приносить деньги и сколько нужно заложить на первые месяцы, пока оно до этого оборота доходит.</p>
-          <div class="inline-cta"><a class="button" id="cta-after-6" href="#registration">Зарегистрироваться бесплатно</a><p><span class="js-event-date">Ближайшая дата</span> в 13:00 по МСК<br>Участие бесплатное</p></div>
+          <div class="inline-cta"><a class="button" id="cta-after-6" href="#registration">Зарегистрироваться бесплатно</a><p>{DATETIME} Мск<br>Участие бесплатное</p></div>
         </div>
       </section>
 
@@ -171,7 +171,7 @@
             </section>
           </div>
           <p><strong>К концу эфира у Вас будет последовательность действий и понимание, сколько денег нужно на Ваш проект.</strong></p>
-          <div class="inline-cta"><a class="button button--dark" id="cta-after-program" href="#registration">Зарегистрироваться бесплатно</a><p><span class="js-event-date">Ближайшая дата</span> в 13:00 по МСК<br>Участие бесплатное</p></div>
+          <div class="inline-cta"><a class="button button--dark" id="cta-after-program" href="#registration">Зарегистрироваться бесплатно</a><p>{DATETIME} Мск<br>Участие бесплатное</p></div>
         </div>
       </div>
     </section>
@@ -189,7 +189,7 @@
           <li>Какая господдержка бывает и что должно быть в заявке, чтобы её рассматривали всерьёз.</li>
         </ul>
         <p>Всё это Вы уносите с собой и применяете сразу, независимо от того, будете учиться дальше или нет. <strong>Регистрируйтесь на эфир по кнопке ниже.</strong></p>
-        <div class="inline-cta"><a class="button button--light" id="cta-after-takeaways" href="#registration">Зарегистрироваться бесплатно</a><p><span class="js-event-date">Ближайшая дата</span> в 13:00 по МСК<br>Бесплатно и ни к чему не обязывает</p></div>
+        <div class="inline-cta"><a class="button button--light" id="cta-after-takeaways" href="#registration">Зарегистрироваться бесплатно</a><p>{DATETIME} Мск<br>Бесплатно и ни к чему не обязывает</p></div>
       </div>
     </section>
 
@@ -199,18 +199,13 @@
           <h2>Хотите понять, сколько денег нужно именно на Ваше заведение?</h2>
           <p>Тогда занимайте место на ближайшем бесплатном онлайн-эфире от Школы Вкусного Бизнеса.</p>
           <dl class="registration-schedule" aria-label="Дата, время и стоимость эфира">
-            <div><dt>Дата эфира</dt><dd class="js-event-date">Ближайшая дата</dd></div>
-            <div><dt>Начало</dt><dd>13:00 <span>по МСК</span></dd></div>
+            <div><dt>Дата и время</dt><dd>{DATETIME} Мск</dd></div>
             <div><dt>Участие</dt><dd>0 ₽ <span>бесплатно</span></dd></div>
           </dl>
         </div>
         <div class="form-card" id="registration-form" aria-labelledby="form-title">
           <h3 id="form-title">Регистрация на эфир</h3>
-          <div class="form-placeholder" aria-hidden="true"><span>Имя</span><span>Телефон или e-mail</span><span class="form-placeholder__button">Зарегистрироваться бесплатно</span></div>
-          <div class="form-card__consent">
-            <label><input type="checkbox" disabled>Я соглашаюсь с <a href="https://drive.google.com/file/d/1Ds4_LYxGyn-UV2bTBPC8diNzIxJ0oowQ/view?usp=sharing" target="_blank" rel="noopener">условиями оферты</a></label>
-            <label><input type="checkbox" disabled>Я даю согласие на обработку персональных данных и на получение рекламной рассылки в соответствии с <a href="https://afanasevacourse.info/cms/system/legal" target="_blank" rel="noopener">условиями</a></label>
-          </div>
+          <script id="d4e90f9c2b0d3ba8d6e8e214009873c7e316270d" src="https://afanasevacourse.info/pl/lite/widget/script?id=1659108"></script>
         </div>
       </div>
     </section>
@@ -223,13 +218,13 @@
     <div class="wide-shell footer__grid">
       <div class="footer__identity"><div class="footer__brand"><img src="assets/logo-original.png" alt="" width="1080" height="1080"></div><strong class="footer__name">Школа Вкусного Бизнеса</strong></div>
       <div class="footer__details">
-        <p><a class="js-license-link" href="#" aria-disabled="true">Лицензия на образовательную деятельность № Л035-01271-78/00675511</a></p>
+        <p><a class="js-license-link" href="https://afanasevacourse.info/cms/system/legal" target="_blank" rel="noopener">Лицензия на образовательную деятельность № Л035-01271-78/00675511</a></p>
         <p>ИП Афанасьева Александра Глебовна<br>ОГРНИП 321470400048949 · ИНН 510904614237</p>
       </div>
       <nav class="footer__links" aria-label="Юридические документы">
-        <a class="js-policy-link" href="#" aria-disabled="true">Политика обработки персональных данных</a>
-        <a class="js-consent-link" href="#" aria-disabled="true">Согласие на обработку персональных данных</a>
-        <a class="js-ads-consent-link" href="#" aria-disabled="true">Согласие на обработку персональных данных в рекламных целях</a>
+        <a class="js-policy-link" href="https://afanasevacourse.info/cms/system/legal" target="_blank" rel="noopener">Политика обработки персональных данных</a>
+        <a class="js-consent-link" href="https://afanasevacourse.info/cms/system/legal" target="_blank" rel="noopener">Согласие на обработку персональных данных</a>
+        <a class="js-ads-consent-link" href="https://afanasevacourse.info/cms/system/legal" target="_blank" rel="noopener">Согласие на обработку персональных данных в рекламных целях</a>
       </nav>
     </div>
   </footer>
